@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Happy Birthday </title>
+    <!-- <link rel="icon" type="image/gif/png" href="static/image/title.svg') }}"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="static/styles/base.css">
+    <link rel="stylesheet" type="text/css" href="static/styles/main.css">
+    <link rel="stylesheet" type="text/css" href="static/styles/index.css">
+    <link rel="stylesheet" type="text/css" href="static/styles/login.css">
+    <link rel="stylesheet" href="static/styles/screen.css" type="text/css">
+    <!-- Including files for the Fullpage effect -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.js"></script>
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/main.js" type="text/javascript"></script>
+    <script src="static/photo/data.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="static/styles/screen.css" type="text/css">
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
+
+
+</head>
+<body>
+
+<div class="mainPage" id="fullpage">
+    <div class="first section">
+        <div class="wrap" id="wrap">
+            <div class="photo photo_front" id="photo_{{index}}" onclick="turn(this)">
+                <div class="photo-wrap">
+                    <div class="side side-front">
+                        <p class="image">
+                            <img id="img" src="static/photo/{{img}}">
+                        </p>
+                        <p class="caption">{{caption}}</p>
+
+                    </div>
+                    <div class="side side-back">
+                        <p class="desc">{{desc}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="wrap" id="wrap">
+            <div class="photo  photo_front" id="photo_0" onclick="turn(this)" style="transform: rotate(1deg) scale(1); left: 5px; top: 47px;">
+                <div class="photo-wrap">
+                    <div class="side side-front">
+                        <p class="image">
+                            <img id="img" src="static/photo/mix1.jpg">
+                        </p>
+                        <p class="caption">Photographer Mix</p>
+
+                    </div>
+                    <div class="side side-back">
+                        <p class="desc">Photographer Mix</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photo  photo_front photo_center" id="photo_1" onclick="turn(this)" style="transform: rotate(360deg) scale(1.3);">
+                <div class="photo-wrap">
+                    <div class="side side-front">
+                        <p class="image">
+                            <img id="img" src="static/photo/mix2.jpg">
+                        </p>
+                        <p class="caption">Sleeping Mix</p>
+
+                    </div>
+                    <div class="side side-back">
+                        <p class="desc">Sleeping Mix</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photo  photo_front" id="photo_2" onclick="turn(this)" style="transform: rotate(41deg) scale(1); left: 84px; top: 195px;">
+                <div class="photo-wrap">
+                    <div class="side side-front">
+                        <p class="image">
+                            <img id="img" src="static/photo/mix3.jpg">
+                        </p>
+                        <p class="caption">Model Mix</p>
+
+                    </div>
+                    <div class="side side-back">
+                        <p class="desc">Model Mix</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photo  photo_front" id="photo_3" onclick="turn(this)" style="transform: rotate(8deg) scale(1); left: 272px; top: 147px;">
+                <div class="photo-wrap">
+                    <div class="side side-front">
+                        <p class="image">
+                            <img id="img" src="static/photo/mix4.jpg">
+                        </p>
+                        <p class="caption">Angry Mix</p>
+
+                    </div>
+                    <div class="side side-back">
+                        <p class="desc">Angry Mix</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photo  photo_front" id="photo_4" onclick="turn(this)" style="transform: rotate(-35deg) scale(1); left: 432px; top: 69px;">
+                <div class="photo-wrap">
+                    <div class="side side-front">
+                        <p class="image">
+                            <img id="img" src="static/photo/mix5.jpg">
+                        </p>static/js/
+                        <p class="caption">Happy Mix</p>
+
+                    </div>
+                    <div class="side side-back">
+                        <p class="desc">Happy Mix</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photo  photo_front" id="photo_5" onclick="turn(this)" style="transform: rotate(-4deg) scale(1); left: 55px; top: 51px;">
+                <div class="photo-wrap">
+                    <div class="side side-front">
+                        <p class="image">
+                            <img id="img" src="static/photo/mix6.jpg">
+                        </p>
+                        <p class="caption">Pretty Mix</p>
+
+                    </div>
+                    <div class="side side-back">
+                        <p class="desc">Pretty Mix</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photo  photo_front" id="photo_6" onclick="turn(this)" style="transform: rotate(123deg) scale(1); left: 297px; top: 70px;">
+                <div class="photo-wrap">
+                    <div class="side side-front">
+                        <p class="image">
+                            <img id="img" src="static/photo/mix7.jpg">
+                        </p>
+                        <p class="caption">Gangster Mix</p>
+
+                    </div>
+                    <div class="side side-back">
+                        <p class="desc">Gangster Mix</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photo  photo_front" id="photo_7" onclick="turn(this)" style="transform: rotate(45deg) scale(1); left: 1280px; top: 214px;">
+                <div class="photo-wrap">
+                    <div class="side side-front">
+                        <p class="image">
+                            <img id="img" src="static/photo/mix8.jpg">
+                        </p>
+                        <p class="caption">Sunflower Mix</p>
+
+                    </div>
+                    <div class="side side-back">
+                        <p class="desc">Sunflower Mix</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photo  photo_front" id="photo_8" onclick="turn(this)" style="transform: rotate(30deg) scale(1); left: 894px; top: 32px;">
+                <div class="photo-wrap">
+                    <div class="side side-front">
+                        <p class="image">
+                            <img id="img" src="static/photo/mix9.jpg">
+                        </p>
+                        <p class="caption">Wow Mix</p>
+
+                    </div>
+                    <div class="side side-back">
+                        <p class="desc">Wow Mix</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photo  photo_front" id="photo_9" onclick="turn(this)" style="transform: rotate(-40deg) scale(1); left: 1108px; top: 7px;">
+                <div class="photo-wrap">
+                    <div class="side side-front">
+                        <p class="image">
+                            <img id="img" src="static/photo/mix10.jpg">
+                        </p>
+                        <p class="caption">Scary Mix</p>
+
+                    </div>
+                    <div class="side side-back">
+                        <p class="desc">Scary Mix</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photo  photo_front" id="photo_10" onclick="turn(this)" style="transform: rotate(-115deg) scale(1); left: 1078px; top: 184px;">
+                <div class="photo-wrap">
+                    <div class="side side-front">
+                        <p class="image">
+                            <img id="img" src="static/photo/mix11.jpg">
+                        </p>
+                        <p class="caption">Rajnikanth Mix</p>
+
+                    </div>
+                    <div class="side side-back">
+                        <p class="desc">Rajnikanth Mix</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photo  photo_front" id="photo_11" onclick="turn(this)" style="transform: rotate(-110deg) scale(1); left: 1305px; top: 100px;">
+                <div class="photo-wrap">
+                    <div class="side side-front">
+                        <p class="image">
+                            <img id="img" src="static/photo/mix12.jpg">
+                        </p>
+                        <p class="caption">Fat Mix</p>
+
+                    </div>
+                    <div class="side side-back">
+                        <p class="desc">Fat Mix</p>
+                    </div>
+                </div>
+            </div>
+            <div class="nav"><span id="nav_0" class="i " onclick="turn(select('#photo_0'))">&nbsp;</span><span id="nav_1" class="i  i_current " onclick="turn(select('#photo_1'))">&nbsp;</span><span id="nav_2" class="i " onclick="turn(select('#photo_2'))">&nbsp;</span><span id="nav_3" class="i " onclick="turn(select('#photo_3'))">&nbsp;</span><span id="nav_4" class="i " onclick="turn(select('#photo_4'))">&nbsp;</span><span id="nav_5" class="i " onclick="turn(select('#photo_5'))">&nbsp;</span><span id="nav_6" class="i " onclick="turn(select('#photo_6'))">&nbsp;</span><span id="nav_7" class="i " onclick="turn(select('#photo_7'))">&nbsp;</span><span id="nav_8" class="i " onclick="turn(select('#photo_8'))">&nbsp;</span><span id="nav_9" class="i " onclick="turn(select('#photo_9'))">&nbsp;</span><span id="nav_10" class="i " onclick="turn(select('#photo_10'))">&nbsp;</span><span id="nav_11" class="i " onclick="turn(select('#photo_11'))">&nbsp;</span></div></div>-->
+    </div>
+    <div class="second section">
+        <img src="static/image/0.png" alt="firstHero" class="heroImages" id="heroImage1">
+        <img src="static/image/1.png" alt="secondHero" class="heroImages" id="heroImage2">
+        <img src="static/image/3.png" alt="thirdHero" class="heroImages" id="heroImage3">
+        <div id="message1" class="messageCard">
+            <p id="messageContent">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet modi, voluptatum dicta quae minima optio adipisci ab eaque sint aliquam iure, molestiae soluta rem! Placeat neque saepe commodi quasi hic!
+            </p>
+        </div>
+        <div id="message2" class="messageCard">
+            <p id="messageContent">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolor accusantium quas praesentium corrupti suscipit provident velit, fugit molestias aspernatur nostrum qui laboriosam quibusdam iure tempore dolore. Mollitia, itaque sapiente.
+            </p>
+        </div>
+        <div id="message3" class="messageCard">
+            <p id="messageContent">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet impedit porro nobis numquam sequi atque neque assumenda cumque dolorem eos, ipsa facere commodi hic eligendi sed maiores aperiam delectus fugiat.
+            </p>
+        </div>
+    </div>
+
+    <div class="third section">
+        <img src="static/image/5.png" alt="fourthHero" class="heroImages" id="heroImage1">
+        <img src="static/image/4.png" alt="fifthHero" class="heroImages" id="heroImage2">
+        <img src="static/image/1.png" alt="sixthHero" class="heroImages" id="heroImage3">
+        <div id="message1" class="messageCard">
+            <p id="messageContent">
+                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias quasi unde illo sint perferendis eveniet adipisci suscipit ratione sequi est quibusdam provident harum, ipsum doloremque beatae sit minima sed tempore.
+            </p>
+        </div>
+        <div id="message2" class="messageCard">
+            <p id="messageContent">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, vero beatae consequatur voluptatem possimus deserunt necessitatibus qui aliquam maxime ratione quam itaque quae quod officia, laboriosam esse at dolores tempore?
+            </p>
+        </div>
+        <div id="message3" class="messageCard">
+            <p id="messageContent">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae dolores magni eos consequatur tempore amet, odit excepturi quibusdam suscipit in totam assumenda, deleniti porro provident quis optio? Consectetur, facilis ad?
+            </p>
+        </div>
+    </div>
+    <div class="fourth section">
+        <div id="leftInfo">
+            <p id="wordmapText">The image that you see on the right has been developed using Machine Learning.
+                It used our text data over the past few weeks. The words that appear bigger and brighter, have been used more
+                frequently than others.</p>
+        </div>
+        <div id="rightImage">
+                <img  src="static/image/test.png" alt="Word Cloud" id="wordCloud" data-title="Image Caption" 3 data-group="single"  class="js-lightBox">
+        </div>
+
+
+    </div>
+    <div class="fifth section">
+        <a href="{{ url_for('logout" id="logoutLink">LOG OUT</a>
+        <div id="giftTextContainer">
+            
+            <p id="giftText">Click below to receive your gift !</p>
+            <a href="{{ url_for('sendMail" id="giftLink">GIFT</a>
+        </div>
+    </div>
+
+</div>
+
+
+
+</body>
+</html>

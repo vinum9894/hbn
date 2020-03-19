@@ -1,77 +1,133 @@
 var data = [];
 
-var dataStr = "mix1<br>\
+var dataStr = "1<br>\
+test<br>\
+Photographer Mix let's take moment ans remeber all good deeds<br>\
 <br>\
-Photographer Mix<br>\
 <br>\
-<br>\
-mix2<br>\
+2<br>\
 <br>\
 Sleeping Mix<br>\
 <br>\
 <br>\
-mix3<br>\
+3<br>\
 <br>\
 Model Mix<br>\
 <br>\
 <br>\
-mix4<br>\
+4<br>\
 <br>\
 Angry Mix<br>\
 <br>\
 <br>\
-mix5<br>\
+5<br>\
 <br>\
 Happy Mix<br>\
 <br>\
 <br>\
-mix6<br>\
+6<br>\
 <br>\
 Pretty Mix<br>\
 <br>\
 <br>\
-mix7<br>\
+7<br>\
 <br>\
 Gangster Mix<br>\
 <br>\
 <br>\
-mix8<br>\
+8<br>\
 <br>\
 Sunflower Mix<br>\
 <br>\
 <br>\
-mix9<br>\
+9<br>\
 <br>\
 Wow Mix<br>\
 <br>\
 <br>\
-mix10<br>\
+10<br>\
 <br>\
 Scary Mix<br>\
 <br>\
 <br>\
-mix11<br>\
+11<br>\
 <br>\
 Rajnikanth Mix<br>\
 <br>\
 <br>\
-mix12<br>\
+12<br>\
 <br>\
 Fat Mix<br>\
 <br>\
 <br>\
+13<br>\
+test<br>\
+Photographer Mix let's take moment ans remeber all good deeds<br>\
+<br>\
+<br>\
+14<br>\
+test<br>\
+Photographer Mix let's take moment ans remeber all good deeds<br>\
+<br>\
+<br>\
+15<br>\
+test<br>\
+Photographer Mix let's take moment ans remeber all good deeds<br>\
+<br>\
+<br>\
+16<br>\
+test<br>\
+Photographer Mix let's take moment ans remeber all good deeds<br>\
+<br>\
+<br>\
+17<br>\
+test<br>\
+Photographer Mix let's take moment ans remeber all good deeds<br>\
+<br>\
+<br>\
+18<br>\
+test<br>\
+Photographer Mix let's take moment ans remeber all good deeds<br>\
+<br>\
+<br>\
+19<br>\
+test<br>\
+Photographer Mix let's take moment ans remeber all good deeds<br>\
+<br>\
+<br>\
+20<br>\
+test<br>\
+Photographer Mix let's take moment ans remeber all good deeds<br>\
+<br>\
+<br>\
+21<br>\
+test<br>\
+Photographer Mix let's take moment ans remeber all good deeds<br>\
+<br>\
+<br>\
+22<br>\
+test<br>\
+Photographer Mix let's take moment ans remeber all good deeds<br>\
+<br>\
+<br>\
+23<br>\
+test<br>\
+Photographer Mix let's take moment ans remeber all good deeds<br>\
+<br>\
+<br>\
 "
+
   
 
 
 var d = dataStr.split("<br><br><br>");
 for(var i = 0; i<d.length-1; i++){
-  var c = d[i].split("<br><br>");
+  var c = d[i].split("<br>");
   //console.log((c[0].split('.'))[1]);
   data.push({
     img: c[0]+ ".jpg",
     caption: c[1],
-    desc: c[1]
+    desc: c[2]
   });
   //console.log(c[1]);
 }

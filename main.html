@@ -29,7 +29,7 @@
 <body>
 
 <div class="mainPage" id="fullpage">
-    <div class="first section">
+    <div class="second section">
         <div class="wrap" id="wrap">
             <div class="photo photo_front" id="photo_{{index}}" onclick="turn(this)">
                 <div class="photo-wrap">
@@ -38,7 +38,7 @@
                             <img id="img" src="static/photo/{{img}}">
                         </p>
                         <p class="caption">{{caption}}</p>
-                        
+
                     </div>
                     <div class="side side-back">
                         <p class="desc">{{desc}}</p>
@@ -228,7 +228,7 @@
             </div>
             <div class="nav"><span id="nav_0" class="i " onclick="turn(select('#photo_0'))">&nbsp;</span><span id="nav_1" class="i  i_current " onclick="turn(select('#photo_1'))">&nbsp;</span><span id="nav_2" class="i " onclick="turn(select('#photo_2'))">&nbsp;</span><span id="nav_3" class="i " onclick="turn(select('#photo_3'))">&nbsp;</span><span id="nav_4" class="i " onclick="turn(select('#photo_4'))">&nbsp;</span><span id="nav_5" class="i " onclick="turn(select('#photo_5'))">&nbsp;</span><span id="nav_6" class="i " onclick="turn(select('#photo_6'))">&nbsp;</span><span id="nav_7" class="i " onclick="turn(select('#photo_7'))">&nbsp;</span><span id="nav_8" class="i " onclick="turn(select('#photo_8'))">&nbsp;</span><span id="nav_9" class="i " onclick="turn(select('#photo_9'))">&nbsp;</span><span id="nav_10" class="i " onclick="turn(select('#photo_10'))">&nbsp;</span><span id="nav_11" class="i " onclick="turn(select('#photo_11'))">&nbsp;</span></div></div>-->
     </div>
-    <div class="second section">
+    <!--<div class="second section">
         <img src="static/image/0.png" alt="firstHero" class="heroImages" id="heroImage1">
         <img src="static/image/1.png" alt="secondHero" class="heroImages" id="heroImage2">
         <img src="static/image/3.png" alt="thirdHero" class="heroImages" id="heroImage3">
@@ -247,9 +247,9 @@
                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet impedit porro nobis numquam sequi atque neque assumenda cumque dolorem eos, ipsa facere commodi hic eligendi sed maiores aperiam delectus fugiat.
             </p>
         </div>
-    </div>
+    </div>-->
 
-    <div class="third section">
+    <!--<div class="third section">
         <img src="static/image/5.png" alt="fourthHero" class="heroImages" id="heroImage1">
         <img src="static/image/4.png" alt="fifthHero" class="heroImages" id="heroImage2">
         <img src="static/image/1.png" alt="sixthHero" class="heroImages" id="heroImage3">
@@ -272,14 +272,14 @@
     <div class="fourth section">
         <div id="leftInfo">
             <p id="wordmapText">The image that you see on the right has been developed using Machine Learning.
-                It used our text data over the past few weeks. The words that appear bigger and brighter, have been used more 
+                It used our text data over the past few weeks. The words that appear bigger and brighter, have been used more
                 frequently than others.</p>
         </div>
         <div id="rightImage">
                 <img  src="static/image/test.png" alt="Word Cloud" id="wordCloud" data-title="Image Caption" 3 data-group="single"  class="js-lightBox">
         </div>
-        
-       
+
+
     </div>
     <div class="fifth section">
         <a href="{{ url_for('logout" id="logoutLink">LOG OUT</a>
@@ -288,7 +288,7 @@
             <p id="giftText">Click below to receive your gift !</p>
             <a href="{{ url_for('sendMail" id="giftLink">GIFT</a>
         </div>
-    </div>
+    </div>-->
 
 </div>
 
