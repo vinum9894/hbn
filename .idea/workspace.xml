@@ -3,6 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="9a7282f8-39c1-418e-8386-b1e2e4b69776" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/photo/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/photo/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/photo/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/photo/21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/photo/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/photo/22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/photo/23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/photo/23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/photo/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/photo/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/photo/29.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/photo/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/photo/data.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584603885592</updated>
       <workItem from="1584603896355" duration="7528000" />
-      <workItem from="1584620597030" duration="14004000" />
+      <workItem from="1584620597030" duration="18317000" />
     </task>
     <servers />
   </component>
