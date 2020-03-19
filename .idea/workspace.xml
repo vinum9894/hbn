@@ -3,64 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9a7282f8-39c1-418e-8386-b1e2e4b69776" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/DSC_0002_1533049998802.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20181007_125303.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20181007_154828.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20181007_154831.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20181031_160208.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20190106_100044_1547127191983.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20190106_122842.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20190106_143953.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20190203_110437_BURST1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20190203_110437_BURST2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20190203_131505.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20190203_134800.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20190203_153943.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20190217_135431.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20190330_155321.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20190330_155754.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20190330_172516.jpg.thumb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20190331_143108.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20190331_152235.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20190420_205352.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20190428_133751.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20190428_133751.jpg.thumb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20190428_143246.jpg.thumb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20190609_134647.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20200306_155321.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/boopar/IMG_20200306_155357.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20181007_133057.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20181031_164729.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20181103_191244_HHT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20181216_105324.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20181216_110841_BURST7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190106_123217.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190120_154211.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190203_124958.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190203_130527.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190203_131509.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190203_153840.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190217_134415~2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190316_173636.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190316_174212.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190330_172756.jpg.thumb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190331_143059.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190331_143421.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190331_150352.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190331_150735~2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190420_205744.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190421_172250.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190421_172422.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190526_172904.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190526_174213.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190609_130947.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190609_130958.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190609_134018.jpg.thumb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190609_134448.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20190609_144230.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/IMG_20191123_202641.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/again/num/namu.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/photo/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/photo/data.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584603885592</updated>
       <workItem from="1584603896355" duration="7528000" />
-      <workItem from="1584620597030" duration="11259000" />
+      <workItem from="1584620597030" duration="14004000" />
     </task>
     <servers />
   </component>

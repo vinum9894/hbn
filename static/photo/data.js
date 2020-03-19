@@ -1,118 +1,118 @@
 var data = [];
 
 var dataStr = "1<br>\
-test<br>\
-Photographer Mix let's take moment ans remeber all good deeds<br>\
+Text<br>\
+back text<br>\
 <br>\
 <br>\
 2<br>\
 <br>\
-Sleeping Mix<br>\
+back text<br>\
 <br>\
 <br>\
 3<br>\
 <br>\
-Model Mix<br>\
+back text<br>\
 <br>\
 <br>\
 4<br>\
 <br>\
-Angry Mix<br>\
+back text<br>\
 <br>\
 <br>\
 5<br>\
 <br>\
-Happy Mix<br>\
+back text<br>\
 <br>\
 <br>\
 6<br>\
 <br>\
-Pretty Mix<br>\
+back text<br>\
 <br>\
 <br>\
 7<br>\
 <br>\
-Gangster Mix<br>\
+back text<br>\
 <br>\
 <br>\
 8<br>\
 <br>\
-Sunflower Mix<br>\
+back text<br>\
 <br>\
 <br>\
 9<br>\
 <br>\
-Wow Mix<br>\
+back text<br>\
 <br>\
 <br>\
 10<br>\
 <br>\
-Scary Mix<br>\
+back text<br>\
 <br>\
 <br>\
 11<br>\
 <br>\
-Rajnikanth Mix<br>\
+back text<br>\
 <br>\
 <br>\
 12<br>\
 <br>\
-Fat Mix<br>\
+back text<br>\
 <br>\
 <br>\
 13<br>\
-test<br>\
-Photographer Mix let's take moment ans remeber all good deeds<br>\
+text<br>\
+back text<br>\
 <br>\
 <br>\
 14<br>\
-test<br>\
-Photographer Mix let's take moment ans remeber all good deeds<br>\
+text<br>\
+back text<br>\
 <br>\
 <br>\
 15<br>\
-test<br>\
-Photographer Mix let's take moment ans remeber all good deeds<br>\
+text<br>\
+back text<br>\
 <br>\
 <br>\
 16<br>\
-test<br>\
-Photographer Mix let's take moment ans remeber all good deeds<br>\
+text<br>\
+back text<br>\
 <br>\
 <br>\
 17<br>\
-test<br>\
-Photographer Mix let's take moment ans remeber all good deeds<br>\
+text<br>\
+back text<br>\
 <br>\
 <br>\
 18<br>\
-test<br>\
-Photographer Mix let's take moment ans remeber all good deeds<br>\
+text<br>\
+back text<br>\
 <br>\
 <br>\
 19<br>\
-test<br>\
-Photographer Mix let's take moment ans remeber all good deeds<br>\
+text<br>\
+back text<br>\
 <br>\
 <br>\
 20<br>\
-test<br>\
-Photographer Mix let's take moment ans remeber all good deeds<br>\
+text<br>\
+back text<br>\
 <br>\
 <br>\
 21<br>\
-test<br>\
-Photographer Mix let's take moment ans remeber all good deeds<br>\
+text<br>\
+back text<br>\
 <br>\
 <br>\
 22<br>\
-test<br>\
-Photographer Mix let's take moment ans remeber all good deeds<br>\
+text<br>\
+back text<br>\
 <br>\
 <br>\
 23<br>\
-test<br>\
-Photographer Mix let's take moment ans remeber all good deeds<br>\
+text<br>\
+back text<br>\
 <br>\
 <br>\
 "
