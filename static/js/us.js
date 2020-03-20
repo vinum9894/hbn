@@ -95,7 +95,7 @@ function random(range) {
   return number;
 }
 
-var data = data_us;
+var data = data;
 function addPhotos() {
   var template = select('#wrap').innerHTML;
   var html = [];
