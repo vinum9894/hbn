@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a7282f8-39c1-418e-8386-b1e2e4b69776" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/j.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/photo/data_w.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/we.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blooper.html" beforeDir="false" afterPath="$PROJECT_DIR$/blooper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/us.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/us.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/data_b.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/photo/data_b.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/data_us.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/photo/data_us.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/us.html" beforeDir="false" afterPath="$PROJECT_DIR$/us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/photo/data_j.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/photo/data_j.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/we.html" beforeDir="false" afterPath="$PROJECT_DIR$/we.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +27,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/static/photo" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/static/js" />
     </key>
   </component>
@@ -61,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584603885592</updated>
       <workItem from="1584603896355" duration="7528000" />
-      <workItem from="1584620597030" duration="24414000" />
+      <workItem from="1584620597030" duration="25672000" />
     </task>
     <servers />
   </component>

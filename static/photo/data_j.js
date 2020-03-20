@@ -148,8 +148,8 @@ for(var i = 1; i<6; i++){
   //console.log((c[0].split('.'))[1]);
   data.push({
     img: i+ ".jpg",
-    caption: cap[Math.floor(Math.random() * cap.length)],
-    desc: dec[Math.floor(Math.random() * dec.length)]
+    caption: "#VIPS",
+    desc: "KUCH NAHI HAI DUSRA PIC DEKH CHAL"
   });
   //console.log(c[1]);
 }
